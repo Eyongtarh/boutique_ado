@@ -6,6 +6,7 @@ cryptography==45.0.3
 defusedxml==0.7.1
 Django==3.2.25
 django-allauth==0.50.0
+django-countries==7.2.1
 django-crispy-forms==1.14.0
 idna==3.10
 oauthlib==3.2.2
@@ -16,7 +17,7 @@ python3-openid==3.2.0
 pytz==2025.2
 requests==2.32.3
 requests-oauthlib==2.0.0
-setuptools==80.9.0
 sqlparse==0.5.3
+stripe==12.5.1
+typing_extensions==4.15.0
 urllib3==2.4.0
-wheel==0.45.1
