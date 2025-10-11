@@ -58,10 +58,12 @@ form.addEventListener('submit', function(ev) {
     // From using {% csrf_token %} in the form
     var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
     var postData = {
-        'csrfmiddlewaretoken': csrfToken,
-        'client_secret': clientSecret,
-        'save_info': saveInfo,
+    'csrfmiddlewaretoken': csrfToken,
+    'client_secret': clientSecret,
+    'save_info': saveInfo,
+    'email': $.trim(form.email.value),
     };
+
     var url = '/checkout/cache_checkout_data/';
 
     $.post(url, postData).done(function () {
