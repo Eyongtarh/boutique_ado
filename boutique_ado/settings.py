@@ -29,7 +29,12 @@ SECRET_KEY = 'django-insecure-bf_nx7m0sd(kbofoqv1g*ba))$ux)2(ju#mr-kr5#21@5iql_d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'dashboard.heroku.com/apps/boutique-ado-market',]
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'dashboard.heroku.com/apps/boutique-ado-market',
+    'boutique-ado-market-ddc95f003838.herokuapp.com',
+    ]
 
 
 # Application definition
