@@ -1,0 +1,3 @@
+User-agent: *
+Dissallow:
+Sitemap: https://boutique-ado-market-ddc95f003838.herokuapp.com/sitemap.xlm
